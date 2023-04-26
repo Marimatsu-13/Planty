@@ -1,0 +1,43 @@
+li a:hover{
+background-color: #DC9F96;
+}
+
+
+h1{
+color:#3D9448;
+font-family: 'Syne';
+font-weight: 800;
+font-size: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+main{
+background-color: #e4d1d1;
+width: 100%;
+}
+
+.canette-feuille{
+display: flex;
+justify-content: center;
+margin-top:20px;
+}
+
+.plante{
+    background-color: white;
+    margin-top: 40px;
+}
+
+h2{
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #3B8E46;
+}

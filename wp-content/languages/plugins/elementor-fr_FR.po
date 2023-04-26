@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-29 07:11:34+0000\n"
+"PO-Revision-Date: 2023-04-23 07:58:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,30 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
+
+#: includes/widgets/icon-list.php:578
+msgid "Adjust Vertical Position"
+msgstr "Ajuster la position verticale"
+
+#: includes/widgets/icon-list.php:521
+msgid "Horizontal Alignment"
+msgstr "Alignement horizontal"
+
+#: includes/widgets/alert.php:496 includes/widgets/alert.php:535
+msgid "Dismiss this alert."
+msgstr "Ignorer cette alerte."
+
+#: core/breakpoints/manager.php:329
+msgid "Tablet Landscape"
+msgstr "Tablette en mode paysage"
+
+#: core/breakpoints/manager.php:324
+msgid "Tablet Portrait"
+msgstr "Tablette en mode portrait"
+
+#: core/admin/admin-notices.php:580
+msgid "Dismiss this notice."
+msgstr "Ignorer cet notification."
 
 #: modules/generator-tag/module.php:84
 msgid "A generator tag is a meta element that indicates the attributes used to create a webpage. It is used for analytical purposes."
@@ -20,7 +44,7 @@ msgid "Generator Tag"
 msgstr "Balise de générateur"
 
 #. translators: %d: Number of rows.
-#: includes/utils.php:214
+#: includes/utils.php:222
 msgid "%d database row affected."
 msgid_plural "%d database rows affected."
 msgstr[0] "%d ligne de base de données affectée."
@@ -1370,7 +1394,7 @@ msgid "Design sites faster with a template kit that contains some or all compone
 msgstr "Concevez des sites plus rapidement grâce à un kit qui contient certains/tous les composants d’un site complet, comme les modèles, le contenu et les réglages du site.%1$sVous pouvez importer un kit et l’appliquer à votre site ou exporter les éléments de ce site pour les utiliser ailleurs. %2$s"
 
 #: app/modules/import-export/module.php:126 core/admin/admin-notices.php:538
-#: core/editor/editor.php:578 assets/js/app.js:8375
+#: core/editor/editor.php:618 assets/js/app.js:8375
 #: assets/js/kit-library.1101176ec8af9d357159.bundle.js:3386
 msgid "Learn more"
 msgstr "Apprendre plus"
