@@ -7,3 +7,124 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: blankslate-child
 Template: blankslate
 */
+
+.logo{
+height: 18.866426467895508px;
+width: 191.6126708984375px;
+margin-top: 30px;
+margin-left: 37px;
+}
+
+#header{
+height: 80px;
+}
+
+
+li a:hover{
+background-color: #DC9F96;
+text-decoration: none;
+color:white;
+    }
+    
+li a{
+text-decoration: none;
+color:black;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+display: inline;
+padding: 60px 60px 12px;
+    }
+    
+.menu{
+display: flex;
+    }
+
+nav{
+display: flex;
+justify-content: flex-end; 
+flex-direction: row;
+    }
+    
+    
+main{
+width: 100%;
+}
+    
+.bordure{    
+border:solid;   
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 100px;
+border-color: #e4d1d1;
+background-color: #e4d1d1;
+height: 800px;
+box-shadow: 0px 12px 0px 0px rgba(184,165,165,0.75);
+}
+    
+    
+.plante{
+background-color: white;
+margin-top: 40px;
+height: 415px;            
+    }
+    
+h2{
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #3B8E46;
+    }
+    
+    
+.bordure2{
+border:solid;
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 100px;
+border-color: #e4d1d1;
+background-color: #e4d1d1;
+height: 900px;
+box-shadow: 0px 12px 0px 0px rgba(184,165,165,0.75);
+        }
+    
+    
+.bordure2 h2{
+color:#D2776A;
+}
+    
+footer{
+height: 60px;
+}
+
+footer a{
+font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+color: black;
+justify-content: center;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .bordure{
+        border:solid;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-color: #e4d1d1;
+        background-color: #e4d1d1;
+        height: 2000px;
+        box-shadow: 0px 12px 0px 0px rgba(184,165,165,0.75);
+        }
+}

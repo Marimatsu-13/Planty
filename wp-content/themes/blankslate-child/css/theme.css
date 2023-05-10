@@ -13,13 +13,16 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 display: inline;
-
+height: 80px;
 }
+
 
 nav{
 display: flex;
 justify-content: flex-end; 
+flex-direction: row;
 height: 80px;
+width: 100%;
 }
 
 h1{
@@ -48,20 +51,11 @@ height: 700px;
 box-shadow: 0px 12px 0px 0px rgba(184,165,165,0.75);
 }
 
-.canette-feuille{
-display: flex;
-justify-content: center;
-margin-top:20px;
-}
-
-.canette{
-position: absolute;
-top: 160px;
-}
 
 .plante{
 background-color: white;
 margin-top: 40px;
+height: 415px;
 }
 
 h2{
@@ -76,15 +70,6 @@ justify-content: center;
 color: #3B8E46;
 }
 
-.plante p {
-color:black;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-margin-top: 50px;
-margin-bottom: 50px;
-}
 
 .bordure2{
     border:solid;
@@ -101,67 +86,7 @@ margin-bottom: 50px;
 color:#D2776A;
 }
 
-.titre2{
-color:black;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+footer{
+    height: 60px;
 }
 
-.parfum{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-width: 70%;
-margin:auto;
-gap: 20px;
-margin-bottom: 20px;
-}
-
-.commander{
-color:white;
-background-color: #E0B9B4;
-border-radius: 5px;
-width: 150px;
-margin:auto;
-align-items: center;
-text-align: center;
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    h1{
-        color:#3D9448;
-        font-family: 'Syne';
-        font-weight: 800;
-        font-size: 28px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        margin-bottom: 100px;
-        }
-
-    .bordure{
-        border:solid;
-        border-bottom-right-radius: 100px;
-        border-bottom-left-radius: 100px;
-        border-color: #e4d1d1;
-        background-color: #e4d1d1;
-        height: 400px;
-        box-shadow: 0px 12px 0px 0px rgba(184,165,165,0.75);
-            }        
-    
-    .canette-feuille{
-        display: flex;
-        justify-content: center;
-        margin-top:20px;
-        width: 100px;
-        margin:auto;
-            }
-
-    .canette{
-        width:100px;
-        top:259px;
-    }
-    }
