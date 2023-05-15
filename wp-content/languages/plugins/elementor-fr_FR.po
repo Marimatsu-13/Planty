@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-08 23:15:10+0000\n"
+"PO-Revision-Date: 2023-05-10 17:14:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
+
+#: core/admin/admin.php:355
+msgid "Get Elementor Pro"
+msgstr "Obtenir Elementor Pro"
 
 #: includes/widgets/icon-list.php:578
 msgid "Adjust Vertical Position"
@@ -893,12 +897,12 @@ msgid "Want to create custom text paths with SVG? %1$sLearn More%2$s"
 msgstr "Vous souhaitez créer des chemins de texte personnalisés avec SVG ? %1$sApprendre plus%2$s"
 
 #. translators: %1$s Link open tag, %2$s: Link close tag.
-#: modules/safe-mode/module.php:307
+#: modules/safe-mode/module.php:314
 msgid "Please note! We couldn't deactivate all of your plugins on Safe Mode. Please %1$sread more%2$s about this issue"
 msgstr "Attention ! Nous n’avons pas pu désactiver toutes vos extensions en mode sans échec. %1$sEn savoir plus%2$s à propos de ce problème"
 
 #. translators: %1$s Link open tag, %2$s: Link close tag.
-#: modules/safe-mode/module.php:278 modules/safe-mode/module.php:291
+#: modules/safe-mode/module.php:285 modules/safe-mode/module.php:298
 msgid "%1$sClick here%2$s to troubleshoot"
 msgstr "%1$sCliquez ici%2$s pour dépanner"
 
@@ -1777,15 +1781,15 @@ msgstr "Choisir un SVG"
 msgid "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!"
 msgstr "Le constructeur de sites web Elementor a tout pour plaire : constructeur de page par glisser-déposer, conception parfaite au pixel près, modification adaptée au mobile, et bien plus encore. Commencez dès maintenant !"
 
-#: core/upgrade/elementor-3-re-migrate-globals.php:58
+#: core/upgrade/elementor-3-re-migrate-globals.php:62
 msgid "Warning: This will reset your current Global Fonts and Colors, and will migrate your previous settings from v2.x versions."
 msgstr "Avertissement : cela réinitialisera vos polices et couleurs globales actuelles et migrera vos réglages précédents à partir des versions v2.x."
 
-#: core/upgrade/elementor-3-re-migrate-globals.php:50
+#: core/upgrade/elementor-3-re-migrate-globals.php:54
 msgid "Rerun Update Script"
 msgstr "Relancer le script de mise à jour"
 
-#: core/upgrade/elementor-3-re-migrate-globals.php:56 assets/js/admin.js:1696
+#: core/upgrade/elementor-3-re-migrate-globals.php:60 assets/js/admin.js:1696
 msgid "Migrate to v3.0"
 msgstr "Migrer vers la v3.0"
 
@@ -1963,7 +1967,7 @@ msgstr "Faites connaissance avec Elementor en regardant notre série de vidéos 
 msgid "Enable Unfiltered File Uploads"
 msgstr "Permettre les téléversements de fichier non filtré"
 
-#: modules/safe-mode/module.php:384
+#: modules/safe-mode/module.php:391
 msgid "If you are experiencing a loading issue, contact your site administrator to troubleshoot the problem using Safe Mode."
 msgstr "Si vous rencontrez un problème de chargement, contactez l’administrateur de votre site pour résoudre le problème en utilisant le mode sans échec."
 
@@ -2620,11 +2624,11 @@ msgstr "Espace autour"
 msgid "Vertical Align"
 msgstr "Alignement vertical"
 
-#: modules/safe-mode/module.php:375
+#: modules/safe-mode/module.php:382
 msgid "Having problems loading Elementor? Please enable Safe Mode to troubleshoot."
 msgstr "Des problèmes au chargement d’Elementor ? Veuillez activer le mode sans échec pour résoudre le problème."
 
-#: modules/safe-mode/module.php:273
+#: modules/safe-mode/module.php:280
 msgid "The issue was probably caused by one of your plugins or theme."
 msgstr "Le problème a certainement été causé par un de vos thèmes ou extensions."
 
@@ -2744,31 +2748,31 @@ msgstr "Fenêtres surgissantes"
 msgid "Theme Builder"
 msgstr "Constructeur de thème"
 
-#: modules/safe-mode/module.php:371
+#: modules/safe-mode/module.php:378
 msgid "Enable Safe Mode"
 msgstr "Activer le mode sans échec"
 
-#: modules/safe-mode/module.php:369 modules/safe-mode/module.php:381
+#: modules/safe-mode/module.php:376 modules/safe-mode/module.php:388
 msgid "Can't Edit?"
 msgstr "Impossible de modifier ?"
 
-#: modules/safe-mode/module.php:286
+#: modules/safe-mode/module.php:293
 msgid "Still experiencing issues?"
 msgstr "Vous avez toujours des problèmes ?"
 
-#: modules/safe-mode/module.php:270
+#: modules/safe-mode/module.php:277
 msgid "Editor successfully loaded?"
 msgstr "Éditeur bien chargé ?"
 
-#: modules/safe-mode/module.php:263 modules/safe-mode/module.php:493
+#: modules/safe-mode/module.php:270 modules/safe-mode/module.php:500
 msgid "Disable Safe Mode"
 msgstr "Désactiver le mode sans échec"
 
-#: modules/safe-mode/module.php:261
+#: modules/safe-mode/module.php:268
 msgid "Safe Mode ON"
 msgstr "Mode sans échec actif"
 
-#: modules/safe-mode/module.php:95
+#: modules/safe-mode/module.php:102
 msgid "Cannot enable Safe Mode"
 msgstr "Impossible d’activer le mode sans échec"
 
@@ -3193,7 +3197,7 @@ msgid "Back to WordPress Editor"
 msgstr "Retour à l’éditeur WordPress"
 
 #. translators: %s: Document title.
-#: core/documents-manager.php:350
+#: core/documents-manager.php:385
 msgid "Elementor %s"
 msgstr "Elementor %s"
 
@@ -4604,7 +4608,7 @@ msgstr "Bibliothèque"
 #: includes/editor-templates/library-layout.php:16
 #: includes/editor-templates/responsive-bar.php:65
 #: includes/editor-templates/responsive-bar.php:66 includes/frontend.php:1395
-#: assets/js/1be27d786af272b43945.bundle.js:221 assets/js/app-packages.js:2124
+#: assets/js/adea2c8e99ec77c3e05d.bundle.js:221 assets/js/app-packages.js:2124
 #: assets/js/app-packages.js:4094 assets/js/app-packages.js:4615
 #: assets/js/app.js:3199 assets/js/app.js:5311 assets/js/app.js:5714
 #: assets/js/app.js:7842 assets/js/app.js:8674 assets/js/app.js:12135
@@ -4640,7 +4644,7 @@ msgstr "Pour modifier le code source de votre thème, nous vous recommandons d�
 #: core/experiments/manager.php:379 core/experiments/manager.php:391
 #: includes/controls/url.php:76
 #: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:30
-#: modules/safe-mode/module.php:376 modules/safe-mode/module.php:385
+#: modules/safe-mode/module.php:383 modules/safe-mode/module.php:392
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:106
 #: assets/js/app-packages.js:2805 assets/js/app-packages.js:5784
 #: assets/js/app-packages.js:5893 assets/js/app.js:4122 assets/js/app.js:8126
@@ -6429,7 +6433,7 @@ msgstr "Chargement"
 #. Plugin Name of the plugin
 #: app/view.php:23 core/admin/admin.php:300 core/admin/admin.php:412
 #: core/admin/admin.php:490 core/admin/menu/main.php:17
-#: core/admin/menu/main.php:18 core/documents-manager.php:346
+#: core/admin/menu/main.php:18 core/documents-manager.php:381
 #: core/upgrade/custom-tasks-manager.php:29 core/upgrade/manager.php:36
 #: includes/plugin.php:886
 #: includes/settings/admin-menu-items/admin-menu-item.php:27
