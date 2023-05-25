@@ -13,7 +13,7 @@ height: 1.125em;
 width: 11.938em;
 margin-top: 30px;
 margin-left: 37px;
-margin-right: 250px;
+margin-right: 450px;
 }
 
 #header{
@@ -43,17 +43,12 @@ padding-top: 40px;
 width: 180px;
 display: flex;
 justify-content: space-around;
-    }
+}
     
 .menu{
 display: flex;
     }
-
-nav{
-display: flex;
-justify-content: flex-end; 
-    }
-    
+   
     
 main{
 width: 100%;
@@ -210,10 +205,10 @@ border: none;
 }
 
 .btn-commander{
-    margin-left: 450px;
+    margin-left: 350px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
 #menu{
     width: 50%;
     display: flex;
@@ -232,4 +227,7 @@ li a{
     margin-right: 50px;
     }
 
+.btn-commander{
+    margin: auto;
+    }
     }
