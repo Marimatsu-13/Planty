@@ -5,7 +5,7 @@ function theme_enqueue_styles() {
 	wp_enqueue_style('child-theme', get_stylesheet_directory_uri() .'/style.css', array('parent-theme'));
 }
 
-/*add_filter('wp_nav_menu_args', 'wp_nav_menu_items', );
+add_filter('wp_nav_menu_args', 'wp_nav_menu_items', );
 function wp_nav_menu_items( $items = '' ) {
     if( is_user_logged_in() ) {
     // Logged in menu to display
@@ -16,10 +16,10 @@ function wp_nav_menu_items( $items = '' ) {
     $items['menu'] = 25;
     }
     return $items;
-    }*/
+    }
 
 
-add_filter('wp_nav_menu_items', 'hide_admin', 10, 2 );
+/*add_filter('wp_nav_menu_items', 'hide_admin', 10, 2 );
     function hide_admin( $items, $args ) 
     {
     if (is_user_logged_in()) 
@@ -34,4 +34,5 @@ add_filter('wp_nav_menu_items', 'hide_admin', 10, 2 );
        }
        return $items;
     
-    }
+    }*/
+    

@@ -5,6 +5,11 @@
  */
 
 get_header(); ?>
+<!DOCTYPE html>
+
+  <head>
+    <title>Planty</title>
+  </head>
 <main>
 <section class="bordure">
 <?php the_content(); ?>
