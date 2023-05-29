@@ -35,7 +35,27 @@ width: 236px;
 #menu-item-37:hover{
 background-color:#C02E44;
 }
+   
+#menu-item-37 a{
+color: white;
+}
+
+#menu-item-828 {
+background-color: #DC9F96;
+text-decoration: none;
+color:white; 
+height: 80px;
+width: 236px;
+        }
     
+#menu-item-828:hover{
+background-color:#C02E44;
+    }
+       
+#menu-item-828 a{
+color: white;
+    }
+
 li a {
 text-decoration: none;
 font-family: 'Syne';
